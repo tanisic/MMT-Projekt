@@ -1,0 +1,44 @@
+.jumbotron{
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 17%, rgba(0,212,255,1) 100%);
+}
+.jumbotron h1{
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+}
+.jumbotron p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+}
+.student img{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+li{
+    font-weight: bold;
+    color: black;   
+}
+li a{
+    color: blue;
+}
+body{
+    background: #00d4ff;
+}
+img{
+    height: 250px;
+    width: auto;
+}
+.student h1{
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+}
+.card-footer{
+    background-color: aquamarine;
+    padding-bottom: 0;
+}

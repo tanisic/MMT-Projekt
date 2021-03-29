@@ -4,12 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Naši filmovi</title>
+    <link rel="stylesheet" href="image_modal.css">
+    <title>Omiljeni film</title>
 </head>
 
 <body>
-    
+    <div class="jumbotron text-center">
+        <h1>Web stranica "Omiljeni film"</h1>
+        <p>Izradili: Marko Grbeš i Tin Anišić</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-12 student">
+                <h1>Marko Grbeš</h1>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12 student">
+                <h1>Tin Anišić</h1>
+                <img id="myImg" src="images/tin_slika.jpg" alt="">
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img02">
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+                </div>
+                <div class="container informacije">
+                    <br>
+                    <h3>Informacije o studentu</h3>
+                    <ul>
+                        <li>Mjesto rođenja: <a href="https://www.zagreb.hr/" target="popup">Zagreb</a></li>
+                        <li>Mjesto stanovanja: <a href="http://www.novska.hr/" target="popup">Novska</a></li>
+                        <li>Osnovna škola: <a href="https://www.os-novska.hr/" target="popup">Osnovna škola Novska</a></li>
+                        <li>Srednja škola: <a href="http://ss-tehnicka-kt.skole.hr/" target="popup">Tehnička škola Kutina</a></li>
+                        <li>Fakultet: <a href="https://www.ferit.unios.hr/" target="popup">Fakulteta elektrotehnike, 
+                            računarstva i informacijskih tehnologija Osijek</a></li>
+                    </ul>
+                </div>
+                <br>
+                <br>
+                <div class="container film">
+                    <h1>Moj najdraži film</h1>
+                    <div class="prvi">
+                        <h3>Pulp Fiction (1994)</h3>
+                        <img src="images/pulp_fiction.png" class="rounded img-thumbnail"alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="card-footer fixed-bottom">
+        <p>Ova web stranica izrađena je za vrijeme pohađanja <a href="https://www.ferit.unios.hr/" target="popup">Fakulteta elektrotehnike, 
+            računarstva i informacijskih tehnologija Osijek</a> u sklopu kolegija
+        <a href="https://www.ferit.unios.hr/studiji/strucni-studij/SR601/7#anc" target="popup">Multimedijska tehnika</a></p>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
