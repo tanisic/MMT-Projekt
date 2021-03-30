@@ -24,10 +24,11 @@
   
   /* Modal Content (Image) */
   .modal-content {
+    height: 90%;
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 700px;
+    width: 37%;
+    max-width: 100%;
   }
   
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -49,9 +50,14 @@
   }
   
   @keyframes zoom {
-    from {transform:scale(0)}
+    from {transform:scale(0.4)}
     to {transform:scale(1)}
   }
+
+  @keyframes zoom-out {
+    from {transform:scale(1)}
+    to {transform:scale(0)}
+  }  
   
   /* The Close Button */
   .close {
@@ -75,5 +81,10 @@
   @media only screen and (max-width: 700px){
     .modal-content {
       width: 100%;
+    }
+  }
+  @media only screen and (max-width: 1080px){
+    .modal-content {
+      width: 80%;
     }
   }
