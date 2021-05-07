@@ -80,11 +80,11 @@
   /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 700px){
     .modal-content {
-      width: 100%;
+      width: 20%;
     }
   }
   @media only screen and (max-width: 1080px){
     .modal-content {
-      width: 80%;
+      width: 60%;
     }
   }
